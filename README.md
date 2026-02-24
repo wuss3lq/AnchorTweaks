@@ -8,14 +8,6 @@ Small client-side Fabric mod that removes the respawn anchor use delay, allowing
 - Fabric Loader: `0.16.5+`
 - Java: `21`
 
-## Build
+## Disclaimer
 
-```bash
-./gradlew build
-```
-
-On Windows:
-
-```powershell
-.\gradlew.bat build
-```
+You are responsible for how you use this mod. I am not responsible if someone gets banned on any server for using it.
