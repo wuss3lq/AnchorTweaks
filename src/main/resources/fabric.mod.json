@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "anchortweaks",
+  "version": "${version}",
+  "name": "enivve optimisations",
+  "description": "Removes the use delay for respawn anchors to allow instant charge/explode interactions.",
+  "authors": [
+    "enivve"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.chaosvanilla.anchortweaks.AnchorTweaksClient"
+    ]
+  },
+  "mixins": [
+    "anchortweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": ">=1.21.4 <1.22"
+  }
+}
