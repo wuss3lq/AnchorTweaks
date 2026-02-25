@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "net.chaosvanilla"
-version = "1.0.0"
+version = "1.0.2"
 
 repositories {
     maven("https://maven.fabricmc.net/")
@@ -26,4 +26,11 @@ java {
 tasks.withType<JavaCompile>().configureEach {
     options.encoding = "UTF-8"
     options.release.set(21)
+}
+
+tasks.processResources {
+    inputs.property("version", project.version)
+    filesMatching("fabric.mod.json") {
+        expand(mapOf("version" to project.version))
+    }
 }
