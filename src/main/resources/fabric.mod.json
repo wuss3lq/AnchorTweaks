@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "anchortweaks",
-  "version": "${version}",
-  "name": "enivve optimisations",
-  "description": "Removes the use delay for respawn anchors to allow instant charge/explode interactions.",
+  "version": "1.21",
+  "name": "enivve optimizations",
+  "description": "Enivve optimizations Perfect For Crystalpvp.",
+  "icon": "assets/anchortweaks/icon.png",
   "authors": [
     "enivve"
   ],
