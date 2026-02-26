@@ -8,6 +8,10 @@
   "authors": [
     "enivve"
   ],
+  "contact": {
+    "homepage": "https://github.com/wuss3lq/AnchorTweaks",
+    "sources": "https://github.com/wuss3lq/AnchorTweaks"
+  },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
